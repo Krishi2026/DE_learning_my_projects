@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Playlists by Weather</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Page heading -->
+            <h1>Trending Playlists by Weather</h1>
+        </header>
+        <main>
+            <!-- Loop through weather categories and their playlists -->
+            {% for weather, playlists in grouped_playlists.items() %}
+                <section>
+                    <!-- Display weather category -->
+                    <h2>Weather: {{ weather }}</h2>
+                    <div class="playlists">
+                        <!-- Loop through each playlist in the current weather category -->
+                        {% for playlist in playlists %}
+                            <!-- Ensure the playlist has valid URL and image -->
+                            {% if playlist.url and playlist.image_url and "spotify" in playlist.url %}
+                                <div class="playlist-item">
+                                    <h3>{{ playlist.title }}</h3>
+                                    <!-- Playlist link and thumbnail -->
+                                    <a href="{{ playlist.url }}" target="_blank">
+                                        <img src="{{ playlist.image_url }}" alt="{{ playlist.title }}" class="playlist-image">
+                                    </a>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </section>
+            {% endfor %}
+        </main>
+    </div>
+</body>
+</html>

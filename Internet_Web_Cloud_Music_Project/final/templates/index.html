@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Based Music App</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- Main heading of the application -->
+            <h1>Weather-Based Music App</h1>
+        </header>
+        <main>
+            <!-- Form for user input -->
+            <form id="weather-form">
+                <h2>Enter Location</h2>
+                <!-- Input field for city name -->
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" onkeyup="fetchSuggestions()" autocomplete="off" required>
+                <ul id="suggestions"></ul>
+                <!-- Submit button to get recommendations -->
+                <button type="submit">Get Recommendations</button>
+            </form>
+
+            <!-- Section to display weather results -->
+            <div id="weather-results"></div>
+            <!-- Section to display Unsplash image -->
+            <div id="photo-result"></div>
+            <!-- Section to display Spotify playlists -->
+            <div id="music-results"></div>
+        </main>
+    </div>
+
+    <script>
+        /**
+         * Fetch city suggestions dynamically from the backend using the autocomplete endpoint.
+         */
+        async function fetchSuggestions() {
+            const input = document.getElementById('city').value;
+            if (input.length > 2) {
+                const response = await fetch(`/autocomplete?input=${input}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    displaySuggestions(data.predictions);
+                }
+            }
+        }
+
+        /**
+         * Display city suggestions in a dropdown list.
+         * @param {Array} predictions - List of city suggestions.
+         */
+        function displaySuggestions(predictions) {
+            const suggestionsList = document.getElementById('suggestions');
+            suggestionsList.innerHTML = ''; // Clear previous suggestions
+            predictions.forEach(prediction => {
+                const li = document.createElement('li');
+                li.textContent = prediction.description;
+                li.onclick = () => selectLocation(prediction.description);
+                suggestionsList.appendChild(li);
+            });
+        }
+
+        /**
+         * Select a city from the suggestions and populate the input field.
+         * @param {string} location - Selected city name.
+         */
+        function selectLocation(location) {
+            document.getElementById('city').value = location;
+            document.getElementById('suggestions').innerHTML = ''; // Clear suggestions
+        }
+
+        /**
+         * Fetch weather data, Unsplash image, and Spotify playlists based on user input.
+         */
+        document.getElementById('weather-form').onsubmit = async function(e) {
+            e.preventDefault();
+            const city = document.getElementById('city').value;
+
+            // Fetch weather data
+            const weatherResponse = await fetch(`/get_weather?city=${city}`);
+            const weatherData = await weatherResponse.json();
+
+            if (weatherData.error) {
+                alert("Error fetching weather data: " + weatherData.error);
+                return;
+            }
+
+            const weatherResults = document.getElementById('weather-results');
+            weatherResults.innerHTML = `
+                <p><strong>City:</strong> ${weatherData.name}</p>
+                <p><strong>Temperature:</strong> ${weatherData.main.temp}°C</p>
+                <p><strong>Weather:</strong> ${weatherData.weather[0].description}</p>
+            `;
+
+            // Fetch a single fun image from Unsplash
+            const tags = weatherData.main.temp <= 10 ? 'winter outfit' : 'summer outfit';
+            const photoResponse = await fetch(`/get_photos?tags=${tags}`);
+            const photoData = await photoResponse.json();
+
+            const photoResult = document.getElementById('photo-result');
+            if (photoData && photoData.urls) {
+                photoResult.innerHTML = `
+                    <h3>Fun Image for Inspiration</h3>
+                    <img src="${photoData.urls.small}" alt="Fun Outfit Image" class="fun-image">
+                `;
+            } else {
+                photoResult.innerHTML = "<p>No fun image found for this weather.</p>";
+            }
+
+            // Fetch Spotify playlist recommendations
+            const weatherDescription = weatherData.weather[0].description;
+            const playlistResponse = await fetch(`/get_songs?weather=${weatherDescription}`);
+            const playlistData = await playlistResponse.json();
+
+            if (playlistData.error) {
+                alert("Error fetching music recommendations: " + playlistData.error);
+                return;
+            }
+
+            const musicResults = document.getElementById('music-results');
+            musicResults.innerHTML = "<h3>Recommended Playlists</h3>";
+            playlistData.forEach(playlist => {
+                const name = playlist.name || "Unknown Playlist";
+                const description = playlist.description || "No description available.";
+                const url = playlist.url || "#";
+                const image = playlist.image || "/static/default_image.jpg";
+
+                musicResults.innerHTML += `
+                    <div>
+                        <h4>${name}</h4>
+                        <p>${description}</p>
+                        <a href="${url}" target="_blank">
+                            <img src="${image}" alt="${name}" style="width:200px;height:200px;">
+                        </a>
+                    </div>
+                `;
+            });
+        };
+
+        /**
+         * Fetch and display trending items on page load.
+         */
+        async function fetchTrending() {
+            const response = await fetch('/trending');
+            const data = await response.json();
+            const trendingContent = document.getElementById('trending-content');
+            trendingContent.innerHTML = '';
+            data.forEach(item => {
+                trendingContent.innerHTML += `
+                    <div>
+                        <h3>${item.title}</h3>
+                        <p>${item.description}</p>
+                        <a href="${item.url}" target="_blank">
+                            <img src="${item.image_url}" alt="${item.title}">
+                        </a>
+                    </div>`;
+            });
+        }
+
+        // Call fetchTrending on page load
+        window.onload = () => {
+            fetchTrending();
+        };
+    </script>
+</body>
+</html>

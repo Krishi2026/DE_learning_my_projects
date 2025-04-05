@@ -1,0 +1,10 @@
+flask
+requests
+
+# GCP Cloud Datastore library
+google-cloud-datastore
+
+# Python WSGI HTTP server (connects web servers such as nginx to app)
+gunicorn
+google-api-core==2.11.0
+google-auth==2.20.0

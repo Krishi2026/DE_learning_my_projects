@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<!-- Page heading for the recommendations section -->
+<h1>Recommended Clothing</h1>
+<ul>
+    <!-- Loop through the recommendations list and display each item -->
+    {% for item in recommendations %}
+        <li>{{ item }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
