@@ -1,0 +1,489 @@
+[
+  {
+    "id": "278b78fb-7937-456f-a7a4-237da413ac4e",
+    "data": [
+      {
+        "text": "Update on extreme weather ",
+        "userDefined": false
+      },
+      {
+        "text": "alerts",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Dallas",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": ", please.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dcf77c9e-0aef-412b-bdc8-06810060c690",
+    "data": [
+      {
+        "text": "Do we have any weather ",
+        "userDefined": false
+      },
+      {
+        "text": "threats",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Los Angeles",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d35516b0-c556-47fe-a373-0241742b72d9",
+    "data": [
+      {
+        "text": "Report any ",
+        "userDefined": false
+      },
+      {
+        "text": "hurricane",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": false
+      },
+      {
+        "text": " warnings in ",
+        "userDefined": false
+      },
+      {
+        "text": "New Orleans",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7fd31fa1-ad67-4ffa-8603-5d3171c7b7a1",
+    "data": [
+      {
+        "text": "Update me on any ",
+        "userDefined": false
+      },
+      {
+        "text": "storm",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": false
+      },
+      {
+        "text": " warnings in ",
+        "userDefined": false
+      },
+      {
+        "text": "Chicago",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8026c12-899d-43e7-a4d4-69e74ec48199",
+    "data": [
+      {
+        "text": "Let me know if there are any ",
+        "userDefined": false
+      },
+      {
+        "text": "storm",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": false
+      },
+      {
+        "text": " warnings in ",
+        "userDefined": false
+      },
+      {
+        "text": "Chicago",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1a4e78de-5dbe-400f-a960-4fa252fc77b6",
+    "data": [
+      {
+        "text": "\"Is there a ",
+        "userDefined": false
+      },
+      {
+        "text": "hurricane",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": false
+      },
+      {
+        "text": " warning in ",
+        "userDefined": false
+      },
+      {
+        "text": "Portland",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0fc8e7d4-4c96-4a5f-811a-5890863aae46",
+    "data": [
+      {
+        "text": "What\u0027s the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "alert",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " status in ",
+        "userDefined": false
+      },
+      {
+        "text": "Portland",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "22d50241-1915-4bfe-ba8b-77efb25d82f3",
+    "data": [
+      {
+        "text": "Give me any weather ",
+        "userDefined": false
+      },
+      {
+        "text": "alerts",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Seattle",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3138b0ac-1076-4cf9-9986-d8cc5851d754",
+    "data": [
+      {
+        "text": "\"Is there any ",
+        "userDefined": false
+      },
+      {
+        "text": "severe weather",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Portland",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fb22029f-9e94-4c04-bd5f-f6deff48e02a",
+    "data": [
+      {
+        "text": "Are there any weather ",
+        "userDefined": false
+      },
+      {
+        "text": "emergencies",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Syracuse",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "88f572e4-8c60-4908-9cf3-70f257a347d8",
+    "data": [
+      {
+        "text": "Is there a ",
+        "userDefined": false
+      },
+      {
+        "text": "hurricane",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": false
+      },
+      {
+        "text": " warning in ",
+        "userDefined": false
+      },
+      {
+        "text": "Seattle",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f0353ad-0090-437e-93f0-503dd6875313",
+    "data": [
+      {
+        "text": "Tell me if there are any weather ",
+        "userDefined": false
+      },
+      {
+        "text": "emergencies",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Seattle",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "63096de3-9433-4fcf-ac45-f71d4f838880",
+    "data": [
+      {
+        "text": "Are there any ",
+        "userDefined": false
+      },
+      {
+        "text": "storm",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": true
+      },
+      {
+        "text": " warnings in ",
+        "userDefined": false
+      },
+      {
+        "text": "Portland",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d35b6a73-b76b-4068-b981-af9adda3c8aa",
+    "data": [
+      {
+        "text": "Tell me about any weather ",
+        "userDefined": false
+      },
+      {
+        "text": "warnings",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Portland",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ca038ae5-dbc8-41c1-8819-b2fa60e59a92",
+    "data": [
+      {
+        "text": "Are there any weather ",
+        "userDefined": false
+      },
+      {
+        "text": "alerts",
+        "meta": "@AlertType",
+        "alias": "AlertType",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Portland",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

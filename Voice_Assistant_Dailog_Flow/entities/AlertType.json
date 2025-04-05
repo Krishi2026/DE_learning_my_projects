@@ -1,0 +1,9 @@
+{
+  "id": "036925f2-a00e-4c7c-bf62-0c15b226aea0",
+  "name": "AlertType",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

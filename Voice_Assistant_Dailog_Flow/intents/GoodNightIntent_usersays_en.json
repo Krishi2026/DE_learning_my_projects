@@ -1,0 +1,319 @@
+[
+  {
+    "id": "e07de709-a8fc-4091-8202-0e7ee5c7e681",
+    "data": [
+      {
+        "text": "What\u0027s the night forecast in ",
+        "userDefined": false
+      },
+      {
+        "text": "Vancouver",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f98e096b-fe01-4e99-8ed9-e1a2f1538fe1",
+    "data": [
+      {
+        "text": "Give me the night weather update for ",
+        "userDefined": false
+      },
+      {
+        "text": "Toronto",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "781f9bb3-fd7b-4aa0-ad8f-6d47a9174102",
+    "data": [
+      {
+        "text": "How\u0027s the weather tonight in ",
+        "userDefined": false
+      },
+      {
+        "text": "Rome",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "76be7779-3b57-43f9-b9a0-713bdcf93f82",
+    "data": [
+      {
+        "text": "What\u0027s the temperature tonight in ",
+        "userDefined": false
+      },
+      {
+        "text": "Boston",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0c716041-cf55-4b20-8215-959a45a37c54",
+    "data": [
+      {
+        "text": "Is it going to rain tonight in ",
+        "userDefined": false
+      },
+      {
+        "text": "Miami",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1db3b665-0ebe-4ff8-8593-8dc360181dec",
+    "data": [
+      {
+        "text": "How\u0027s the weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " tonight?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e2c7e7f0-f5b2-408a-bb4e-5960d18e5ebd",
+    "data": [
+      {
+        "text": "Tell me the night forecast for ",
+        "userDefined": false
+      },
+      {
+        "text": "Berlin",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b234e089-4eed-4447-9296-c2a1eedd1726",
+    "data": [
+      {
+        "text": "What\u0027s the forecast for tonight in ",
+        "userDefined": false
+      },
+      {
+        "text": "Los Angeles",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f143e2d9-ef88-4189-8a83-ad455fe14f8c",
+    "data": [
+      {
+        "text": "How\u0027s the weather tonight in ",
+        "userDefined": false
+      },
+      {
+        "text": "Sydney",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0f4e6c14-0d23-4008-814e-f063c3595ab7",
+    "data": [
+      {
+        "text": "Can you give me the night weather update for ",
+        "userDefined": false
+      },
+      {
+        "text": "London",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ebf7235-7d62-4781-8e5e-ab0964eeef7d",
+    "data": [
+      {
+        "text": "Night weather update for ",
+        "userDefined": false
+      },
+      {
+        "text": "Tokyo",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2d70a0b7-9ec7-4da0-bec9-b3fdeae7805c",
+    "data": [
+      {
+        "text": "Good night, how\u0027s the weather in Paris",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2f315831-56e4-4aa8-b4fe-8e8fed2b937c",
+    "data": [
+      {
+        "text": "Tell me the night weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "New York",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cb40dbe0-ac11-4f7e-93ef-cafcf5e8c072",
+    "data": [
+      {
+        "text": "What\u0027s the weather tonight in ",
+        "userDefined": false
+      },
+      {
+        "text": "Portland",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8388da7b-4a49-4e61-b224-904782a65eec",
+    "data": [
+      {
+        "text": "Good night",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

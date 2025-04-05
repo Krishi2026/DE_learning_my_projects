@@ -1,0 +1,111 @@
+[
+  {
+    "value": "Flood",
+    "synonyms": [
+      "seattle",
+      "sea"
+    ]
+  },
+  {
+    "value": "Storm",
+    "synonyms": [
+      "Storm"
+    ]
+  },
+  {
+    "value": "Hurricane",
+    "synonyms": [
+      "Hurricane"
+    ]
+  },
+  {
+    "value": "Tornado",
+    "synonyms": [
+      "Tornado"
+    ]
+  },
+  {
+    "value": "Thunderstorm",
+    "synonyms": [
+      "Thunderstorm"
+    ]
+  },
+  {
+    "value": "Heatwave",
+    "synonyms": [
+      "Heatwave"
+    ]
+  },
+  {
+    "value": "Cold Wave",
+    "synonyms": [
+      "Cold Wave"
+    ]
+  },
+  {
+    "value": "Blizzard",
+    "synonyms": [
+      "Blizzard"
+    ]
+  },
+  {
+    "value": "Snowstorm",
+    "synonyms": [
+      "Snowstorm"
+    ]
+  },
+  {
+    "value": "Fog",
+    "synonyms": [
+      "Fog"
+    ]
+  },
+  {
+    "value": "Wind Advisory",
+    "synonyms": [
+      "Wind Advisory"
+    ]
+  },
+  {
+    "value": "Dust Storm",
+    "synonyms": [
+      "Dust Storm"
+    ]
+  },
+  {
+    "value": "Fire Weather",
+    "synonyms": [
+      "Fire Weather"
+    ]
+  },
+  {
+    "value": "Ice Storm",
+    "synonyms": [
+      "Ice Storm"
+    ]
+  },
+  {
+    "value": "Severe Weather",
+    "synonyms": [
+      "Severe Weather"
+    ]
+  },
+  {
+    "value": "Tropical Storm",
+    "synonyms": [
+      "Tropical Storm"
+    ]
+  },
+  {
+    "value": "warnings",
+    "synonyms": [
+      "warnings"
+    ]
+  },
+  {
+    "value": "alert",
+    "synonyms": [
+      "alert"
+    ]
+  }
+]

@@ -1,0 +1,311 @@
+[
+  {
+    "id": "8b7537a5-80c8-462e-9773-02d5e461d544",
+    "data": [
+      {
+        "text": "How\u0027s the climate in ",
+        "userDefined": false
+      },
+      {
+        "text": "San Diego",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8db22a16-6beb-4667-b9ca-d42a6915e365",
+    "data": [
+      {
+        "text": "What\u0027s the weather status in ",
+        "userDefined": false
+      },
+      {
+        "text": "Phoenix",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f3e07fd-ca8b-44a2-bec4-f976eb2627ec",
+    "data": [
+      {
+        "text": "Is it windy in ",
+        "userDefined": false
+      },
+      {
+        "text": "Philadelphia",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0661c676-337b-4199-a16a-5d7aafb9d8bb",
+    "data": [
+      {
+        "text": "What\u0027s the humidity in ",
+        "userDefined": false
+      },
+      {
+        "text": "Dallas",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "38d35240-0f62-49f0-aa38-bfec9de15396",
+    "data": [
+      {
+        "text": "Tell me the current weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "Atlanta",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9f81e58e-86ff-4ed6-bfbd-58ff0a9d1105",
+    "data": [
+      {
+        "text": "What\u0027s the weather like in ",
+        "userDefined": false
+      },
+      {
+        "text": "Boston",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "361f8c0e-1ac1-435f-ac99-bb960435d403",
+    "data": [
+      {
+        "text": "Is it raining in ",
+        "userDefined": false
+      },
+      {
+        "text": "Denver",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9aa73462-13e0-44f6-88af-a468f8daa329",
+    "data": [
+      {
+        "text": "How warm is it in ",
+        "userDefined": false
+      },
+      {
+        "text": "San Francisco",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e79178fd-c245-4ab6-9f75-349f8827976b",
+    "data": [
+      {
+        "text": "Do I need an umbrella in ",
+        "userDefined": false
+      },
+      {
+        "text": "Seattle",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a0cdd6ea-b940-4c87-b3e4-270cd41224f2",
+    "data": [
+      {
+        "text": "What\u0027s the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "Miami",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9b4efeea-dc0d-4caa-a091-378bc296ff73",
+    "data": [
+      {
+        "text": "Is it sunny in ",
+        "userDefined": false
+      },
+      {
+        "text": "Houston",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a74a7422-f654-4b04-9801-a2c8745bfb0d",
+    "data": [
+      {
+        "text": "How\u0027s the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date-period",
+        "alias": "date-period",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Portland",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e98131e9-7df8-427d-a035-b224c104605a",
+    "data": [
+      {
+        "text": "How\u0027s the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.date-period",
+        "alias": "date-period",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Portland",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "942ee3f6-2105-4880-b1b2-77ad92339ef8",
+    "data": [
+      {
+        "text": "Tell me the weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6621036d-f1d9-4705-8e02-335d7fa26392",
+    "data": [
+      {
+        "text": "What\u0027s the weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "Portland",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
